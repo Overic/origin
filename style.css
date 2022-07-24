@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(131, 132, 140);
+    font-family:sans-serif;
+    padding: 50px 100px 50px 100px;
+    background-image: url(img/timg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+input{
+    cursor: pointer;
+}
+
+#sect1{
+    display: flex;
+    justify-content: space-between;
+}
+#p1{
+    position: relative;
+    bottom: 3px;
+    font-size: xx-small;
+}
+#inp1{
+    background-color: rgb(52, 48, 48);
+    color: white;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    
+}
+#inp1:hover, #sp0:hover, main input:hover{
+    background-color: rgb(115, 112, 112);
+}
+input[type=search]{
+    padding: 5px;
+}
+
+/*........................................*/
+
+#menu ul{
+    display: flex;
+    /* justify-content: flex-start; */
+}
+#menu ul li{
+    list-style-type: none;
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#sp0{
+    color: #fff;
+    padding: 5px;
+    background-color: black;
+} 
+
+/*...............................................*/
+
+#sect2{
+    display: flex;
+    /* height: 400px; */
+    color: white;
+}
+#img1{
+    background-image: url(img/timg1.png);
+    /* background-color: aqua; */
+    width: 1000px;
+    margin-right: 8px;
+}
+#img2{
+    background-image: url(img/timg2.jpg);
+    /* background-color: blueviolet; */
+    margin-bottom: 8px;
+    height: 196px;
+}
+#img3{
+    background-image: url(img/timg3.jpg);
+    /* background-color: brown; */
+    height: 196px;
+}
+#img1 p{
+    margin: 150px 80px;
+    font-size: 22px;
+}
+#img1 p span,.tpar1 span{
+    font-size: xx-large;
+}
+#img2 ,#img3{
+    padding-left: 30px;
+}
+.tpar1{
+    font-size: 20px;
+}
+#img3 .tpar1{
+    margin-left: 270px;
+}
+
+
+/*.............................................*/
+hr{
+    border: 2px solid black;
+}
+
+#divm1{
+    display: flex;
+    /* justify-content: space-between  ; */
+}
+#divm1 div img{
+    /* margin-left: 30px; */
+    height: 400px; 
+    width: 280px;
+}
+#divm1 div p{
+    text-align: center;
+}
+main input{
+    margin-top: 12px;
+    text-align: center;
+    padding: 10px 50px;
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+
+/*...........................................*/
+#sect3{
+    display: flex;
+    
+}
+#img4,#img5,#img6{
+    margin-right: 7px;
+    padding: 20px;
+    width: 2000px;
+    height: 180px;
+    color: #fff;
+    
+}
+#img4{
+    background-image: url(img/mimg1.jpg);
+    /* background-color: aqua; */
+}
+#img5{
+    /* background-color: rgb(51, 0, 255); */
+    background-image: url(img/mimg2.jpg);
+}
+#img6{
+    /* background-color: rgb(255, 204, 0); */
+    background-image: url(img/mimg3.jpg);
+}
+
+/*.........................................*/
+
+#fsect1{
+    display: flex;
+    justify-content: space-between;
+}
+#fsect2{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+#fsect1 p{
+    margin-bottom: 10px;
+}
